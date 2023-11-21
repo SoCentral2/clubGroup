@@ -99,10 +99,43 @@ body {
 
 /*Cockpit instruments*/
 
+.familyFlexContainer {
+    margin-bottom: 8rem;
+}
+
 .familyFlexContainer .copyright {
     font-size: .65rem;
     font-style: italic;
     margin-left: 2.7rem;
     margin-top: -2.9rem;
     color: black;
+    
 }
+
+.bottomSubHeader {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #BAFF39;
+    margin: 2rem 0;
+}
+
+.imageContainer {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.image {
+    width: 66%;
+    box-sizing: border-box;
+    background-color:  #FAF5E9;
+    padding: 1rem; 
+}
+
+.bottomContainer .bottomCopyright p {
+    font-size: .65rem;
+    color: black;
+    text-align: center;
+    margin-top: -1rem;
+}
+
