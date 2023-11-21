@@ -67,6 +67,7 @@ body {
 /*Images below Heading text*/
 .familyFlexContainer {
     display: flex;
+    column-gap: 1vw;
     /*flex-direction: row;
     flex-wrap: wrap;*/
     flex-flow: row wrap; /*this is the shorthand for the two above*/
