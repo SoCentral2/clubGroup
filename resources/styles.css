@@ -12,7 +12,7 @@ body {
     color: wheat;
 }
 
-/*Header section*/
+/*Header bar and menu items*/
 .topnav { /*Outer class*/
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
@@ -41,7 +41,7 @@ body {
     color: black;
 
 }
-/*First Section*/
+/*Heading text*/
 .mainHeader {
     font-size: 4rem;
     margin: 10rem 0;
@@ -59,6 +59,40 @@ body {
 
 .mainText {
     font-size: .75em;
-    margin-left: 2rem;
+    margin-left: 14rem;
+    margin-bottom: 2rem;
     color: #a3e032; 
+}
+
+/*Images below Heading text*/
+.familyFlexContainer {
+    display: flex;
+    /*flex-direction: row;
+    flex-wrap: wrap;*/
+    flex-flow: row wrap; /*this is the shorthand for the two above*/
+    margin: 1.5rem;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.familyFlexContainer img {
+    width: auto;
+    max-height: 20rem;
+    box-sizing: border-box;
+    background-color:  #FAF5E9;
+    padding: 0.75rem; 
+    margin: 2rem;
+
+}
+
+/*Quote*/
+.mainSubHeader {
+    margin: 0 10rem; 
+}
+
+.attrib {
+    margin-left: 14rem;
+    margin-bottom: 14rem; 
+    color: #a3e032;
+    font-style: italic;
 }
