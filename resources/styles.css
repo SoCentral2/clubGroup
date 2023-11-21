@@ -41,7 +41,6 @@ body {
     color: black;
 
 }
-
 /*First Section*/
 .mainHeader {
     font-size: 4rem;
@@ -52,4 +51,14 @@ body {
     text-align: center;
 }
 
+.mainSubHeader {
+    font-size: 2.5rem;
+    margin-left: 2rem;
+    color: #BAFF39;
+}
 
+.mainText {
+    font-size: .75em;
+    margin-left: 2rem;
+    color: #a3e032; 
+}
