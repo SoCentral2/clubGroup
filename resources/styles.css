@@ -96,3 +96,13 @@ body {
     color: #a3e032;
     font-style: italic;
 }
+
+/*Cockpit instruments*/
+
+.familyFlexContainer .copyright {
+    font-size: .65rem;
+    font-style: italic;
+    margin-left: 2.7rem;
+    margin-top: -2.9rem;
+    color: black;
+}
