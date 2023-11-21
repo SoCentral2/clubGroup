@@ -20,6 +20,9 @@ body {
     z-index: 1; /*Keep it on top*/
     overflow: hidden;
     background-color: #bbbbbb;
+    border-bottom-width: 1px;
+    border-bottom-color: azure;
+    border-bottom-style: groove;
 
 }
 
@@ -83,7 +86,8 @@ body {
     max-height: 20rem;
     box-sizing: border-box;
     background-color:  #FAF5E9;
-    padding: 0.75rem; 
+    padding: 0.75rem;
+    padding-bottom: 1.5rem; 
     margin: 2rem 0;
 
 }
@@ -137,10 +141,10 @@ body {
 }
 
 .bottomContainer .bottomCopyright p {
-    font-size: .65rem;
+    font-size: 1.6vw;
     color: black;
     text-align: center;
-    margin-top: -1rem;
+    margin-top: -2vw;
 }
 
 .bottomLink {
@@ -152,6 +156,11 @@ body {
 .mainSubHeader {
     margin: 0 4vw;
 }
+.familyFlexContainer .copyright {
+    font-size: 2vw;
+}
+
+
 
 
 }
