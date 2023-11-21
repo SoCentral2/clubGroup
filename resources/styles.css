@@ -7,7 +7,7 @@ wheat
 /*General*/
 body {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.5vw;
     background-color: #6E6E6E;
     color: wheat;
 }
@@ -26,12 +26,12 @@ body {
 
 .topnavText {
     text-align: center;
-    height: 3rem;
-    padding-top: .4rem; /*All elements get vertical padding*/
+    height: 3vw;
+    padding-top: .5vw; /*All elements get vertical padding*/
 }
 
 .topnavText a {
-    padding: 14px 16px;
+    padding: 0.4vw 1vw;
     text-decoration: none;
     color: #575757
 }
@@ -43,24 +43,24 @@ body {
 }
 /*Heading text*/
 .mainHeader {
-    font-size: 4rem;
-    margin: 10rem 0;
-    padding: 2rem 0;
+    font-size: 6vw;
+    margin: 12vw 0;
+    padding: 4vw 0;
     color: #BAFF39;
     background-color: #bbbbbb;
     text-align: center;
 }
 
 .mainSubHeader {
-    font-size: 2.5rem;
-    margin-left: 2rem;
+    font-size: 4vw;
+    margin-left: 20vw;
     color: #BAFF39;
 }
 
 .mainText {
-    font-size: .75em;
-    margin-left: 14rem;
-    margin-bottom: 2rem;
+    font-size: 2vw;
+    margin-left: 15vw;
+    margin-bottom: 4vw;
     color: #a3e032; 
 }
 
@@ -70,7 +70,7 @@ body {
     /*flex-direction: row;
     flex-wrap: wrap;*/
     flex-flow: row wrap; /*this is the shorthand for the two above*/
-    margin: 1.5rem;
+    margin: 16px;
     overflow: hidden;
     justify-content: center;
 }
@@ -81,7 +81,7 @@ body {
     box-sizing: border-box;
     background-color:  #FAF5E9;
     padding: 0.75rem; 
-    margin: 2rem;
+    margin: 2rem 0;
 
 }
 
@@ -101,6 +101,7 @@ body {
 
 .familyFlexContainer {
     margin-bottom: 8rem;
+
 }
 
 .familyFlexContainer .copyright {
@@ -109,11 +110,11 @@ body {
     margin-left: 2.7rem;
     margin-top: -2.9rem;
     color: black;
-    
 }
 
+/*Bottom image*/
 .bottomSubHeader {
-    font-size: 2.5rem;
+    font-size: 4vw;
     text-align: center;
     color: #BAFF39;
     margin: 2rem 0;
@@ -139,3 +140,7 @@ body {
     margin-top: -1rem;
 }
 
+.bottomLink {
+    text-decoration: underline;
+    color: #a3e032 ;
+}
